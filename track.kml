@@ -79,7 +79,7 @@
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>ZTL permanente</name>
+      <name>Это трек так-то!</name>
       <styleUrl>#customStyle</styleUrl>
       <Polygon>
         <outerBoundaryIs>
