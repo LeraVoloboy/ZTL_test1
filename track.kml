@@ -83,7 +83,7 @@
       <styleUrl>#customStyle</styleUrl>
       <Polygon>
         <outerBoundaryIs>
-          <LinearRing>
+          <LineString>
             <tessellate>1</tessellate>
             <coordinates>
               36.9099426269531,15.1428031921386,0
@@ -93,7 +93,7 @@
 			  36.9267539978027,14.7468204498291,0
 			  36.9267539978027,14.7468204498291,0
             </coordinates>
-          </LinearRing>
+          </LineString>
         </outerBoundaryIs>
       </Polygon>
     </Placemark>
