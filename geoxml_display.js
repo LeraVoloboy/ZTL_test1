@@ -10,6 +10,7 @@ function init () {
         //--> из kml
                 gpxButton = $('.load-gpx'),
         kmlButton = $('.load-kml'),
+        back_appButton = $('.load-back_app'),
         kmlFlightsButton = $('.load-kml-flights'),
         //<-- из kml
         objectManager = new ymaps.ObjectManager({
@@ -38,6 +39,7 @@ function init () {
     // Отключение кеширования атрибута disabled в Firefox.
     gpxButton.get(0).disabled = false;
     kmlButton.get(0).disabled = false;
+    back_appButton.get(0).disabled = false;
     kmlFlightsButton.get(0).disabled = false;
     
     
@@ -50,6 +52,11 @@ function init () {
     });
     kmlButton.click(function (e) {
         ymaps.geoXml.load('ZTL.kml')
+            .then(onGeoXmlLoad);
+        e.target.disabled = true;
+    });
+    kmlButton.click(function (e) {
+        ymaps.geoXml.load('data.json')
             .then(onGeoXmlLoad);
         e.target.disabled = true;
     });
