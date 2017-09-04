@@ -56,7 +56,7 @@ function init () {
         e.target.disabled = true;
     });
     trackButton.click(function (e) {
-        ymaps.geoXml.load('track.kml')
+        ymaps.geoXml.load('track.xml')
             .then(onGeoXmlLoad);
         e.target.disabled = true;
     });
