@@ -2,6 +2,12 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>ZTL</name>
+    <Style id ="customStyle">
+            <LineStyle>
+                <color>ca3a27</color>
+                <width>7</width>
+            </LineStyle>
+        </Style>
     <Style id="poly-FF0000-1000-0-normal">
       <LineStyle>
         <color>ff0000ff</color>
@@ -74,7 +80,7 @@
     </StyleMap>
     <Placemark>
       <name>ZTL permanente</name>
-      <styleUrl>#poly-FF0000-1000-0-nodesc</styleUrl>
+      <styleUrl>#customStyle</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
