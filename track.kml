@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ZTL</name>
+    <Style id="poly-FF0000-1000-0-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99c97b17</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF0000-1000-0-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99c97b17</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-1000-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-1000-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-1000-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-1000-0-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99c97b17</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-1000-0-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99c97b17</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-1000-0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-1000-0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-1000-0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>ZTL permanente</name>
+      <styleUrl>#poly-FF0000-1000-0-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              36.9099426269531,15.1428031921386,0
+              36.9099426269531,15.1428031921386,0
+			  37.0902519226074,15.2694263458251,0
+		      36.9267539978027,14.7468204498291,0
+			  36.9267539978027,14.7468204498291,0
+			  36.9267539978027,14.7468204498291,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+</Document>
+</kml>
