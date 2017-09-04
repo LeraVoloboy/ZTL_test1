@@ -10,5 +10,14 @@
     <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
     <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
   </trkseg>
+  <name>Трек трек222</name>
+  <trkseg>
+    <trkpt lat="15.242803192" lon="36.909942627"></trkpt>
+    <trkpt lat="15.242803192" lon="36.909942627"></trkpt>
+    <trkpt lat="15.369426346" lon="37.090251923"></trkpt>
+    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
+    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
+    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
+  </trkseg>
 </trk>
 </gpx>
