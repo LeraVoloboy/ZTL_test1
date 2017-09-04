@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<trk>
+  <name>Трек трек</name>
+  <trkseg>
+    <trkpt lat="15.142803192" lon="36.909942627"></trkpt>
+    <trkpt lat="15.142803192" lon="36.909942627"></trkpt>
+    <trkpt lat="15.269426346" lon="37.090251923"></trkpt>
+    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
+    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
+    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
+  </trkseg>
+</trk>
+</gpx>
