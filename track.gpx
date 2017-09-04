@@ -1,25 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<trk>
-  <name>Трек трек</name>
-  <trkseg>
-    <trkpt lat="15.142803192" lon="36.909942627"></trkpt>
-    <trkpt lat="15.142803192" lon="36.909942627"></trkpt>
-    <trkpt lat="15.269426346" lon="37.090251923"></trkpt>
-    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
-    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
-    <trkpt lat="14.74682045" lon="36.926753998"></trkpt>
-  </trkseg>
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0">
+<time>2016-11-20T19:41:16.222Z</time>
+<trk><name><![CDATA[Линия 3]]></name>
+<trkseg>
+<trkpt lon="29.838907165038325" lat="60.04620049494522">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+<trkpt lon="29.96730987499926" lat="60.04688732613475">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+</trkseg>
 </trk>
-<trk>
-  <name>Трек трек222</name>
-  <trkseg>
-    <trkpt lat="15.242803192" lon="36.909942627"></trkpt>
-    <trkpt lat="15.242803192" lon="36.909942627"></trkpt>
-    <trkpt lat="15.369426346" lon="37.090251923"></trkpt>
-    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
-    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
-    <trkpt lat="14.84682045" lon="36.926753998"></trkpt>
-  </trkseg>
+<trk><name><![CDATA[Линия 2]]></name>
+<trkseg>
+<trkpt lon="29.838907165038325" lat="60.05581482711456">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+<trkpt lon="29.967996520507068" lat="60.056158144163476">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+</trkseg>
+</trk>
+<trk><name><![CDATA[Линия 1]]></name>
+<trkseg>
+<trkpt lon="29.837533874022704" lat="60.066799195419904">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+<trkpt lon="29.96799652050722" lat="60.066799195419904">
+<time>2016-11-20T19:41:16.222Z</time>
+</trkpt>
+</trkseg>
 </trk>
 </gpx>
